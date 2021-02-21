@@ -1,4 +1,8 @@
 
+/**
+ * @author 34617
+ *
+ */
 public abstract class FiguraGeometricaASI {
 
 	protected String tipoFigura;
