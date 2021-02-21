@@ -6,7 +6,11 @@ public class CirculoASI extends FiguraGeometricaASI {
 	
 	public CirculoASI(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (radio < 0) {
+			radio = r*(-1);
+		}else {
 		radio = r;
+		}
 	}
 
 	@Override
